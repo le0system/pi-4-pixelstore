@@ -1,0 +1,17 @@
+digraph PixelStore {
+  graph [rankdir=LR, bgcolor="white",pad=0.25,ranksep=.6,nodesep=.3, fontname="Arial"];
+  node [shape=record,style="filled,rounded",fillcolor="#F0EDFF",color="#8F6BFF",fontname="Arial",fontsize=10];
+  edge [color="#7566B4",arrowhead="crow",arrowsize=.7,penwidth=1.3];
+  users [label="{USERS | id (PK)\lname\lemail (UNIQUE)\lpassword_hash\lrole\l}"];
+  sessions [label="{SESSIONS | token_hash (PK)\luser_id (FK)\lexpires_at\l}"];
+  products [label="{PRODUCTS | id (PK)\ltitle, platform\lgenre, description\lprice_cents, stock\lcover_color, icon\l}"];
+  cart [label="{CART_ITEMS | user_id (PK/FK)\lproduct_id (PK/FK)\lquantity\l}"];
+  orders [label="{ORDERS | id (PK)\luser_id (FK)\lstatus\lpayment_provider\ltotal_cents\l}"];
+  items [label="{ORDER_ITEMS | id (PK)\lorder_id (FK)\lproduct_id\ltitle, platform\lquantity, price_cents\l}"];
+  users->sessions [label="1:N"];
+  users->cart [label="1:N"];
+  products->cart [label="1:N"];
+  users->orders [label="1:N"];
+  orders->items [label="1:N"];
+  products->items [style=dashed,label="snapshot"];
+}

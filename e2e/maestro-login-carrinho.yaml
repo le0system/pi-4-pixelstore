@@ -1,0 +1,28 @@
+# Teste E2E de interface móvel: execute no emulador após iniciar app/API.
+# Precondição: usuário 'e2e@example.com' cadastrado com senha 'senha1234'.
+appId: br.com.pixelstore.pi
+---
+- launchApp
+- tapOn:
+    id: login-email
+- inputText: e2e@example.com
+- tapOn:
+    id: login-password
+- inputText: senha1234
+- tapOn:
+    id: login-submit
+- assertVisible: "Escolha sua próxima"
+- tapOn: "Jogos"
+- tapOn:
+    id: game-1
+- tapOn:
+    id: details-add-cart
+- tapOn: "Ver sacola"
+- assertVisible: "Minha sacola"
+- tapOn:
+    id: cart-checkout
+- assertVisible: "Pagar com Mercado Pago"
+# Para confirmar compra sem cobrança e backend demo habilitado:
+- tapOn:
+    id: checkout-demo
+- assertVisible: "Pedido registrado"

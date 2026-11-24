@@ -1,0 +1,33 @@
+{
+  "projeto": "Pixel Store",
+  "gerado_em": "2026-11-14T20:39:06.649Z",
+  "ambiente": "configurado",
+  "indicadores": {
+    "pedidos": 1,
+    "receita_centavos": 19990,
+    "produtos_ativos": 14,
+    "clientes": 1
+  },
+  "vendas_por_plataforma": [
+    {
+      "platform": "PC",
+      "unidades": 1,
+      "receita_centavos": 19990
+    }
+  ],
+  "vendas_por_mes": [
+    {
+      "mes": "2026-11",
+      "pedidos": 1,
+      "receita_centavos": 19990
+    }
+  ],
+  "produtos_mais_vendidos": [
+    {
+      "titulo": "Red Dead Redemption 2",
+      "unidades": 1,
+      "receita_centavos": 19990
+    }
+  ],
+  "observacao": "Totais incluem compras simuladas no modo demonstração, quando habilitado. Nenhum dado pessoal é exportado."
+}

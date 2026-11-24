@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Pixel Store",
+    "slug": "pixel-store",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "android": {
+      "package": "br.com.pixelstore.pi",
+      "usesCleartextTraffic": true
+    },
+    "ios": { "supportsTablet": true },
+    "web": { "bundler": "metro" },
+    "experiments": { "tsconfigPaths": false }
+  }
+}

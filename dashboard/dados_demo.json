@@ -1,0 +1,93 @@
+{
+  "projeto": "Pixel Store",
+  "gerado_em": "2026-11-14T20:31:12.972Z",
+  "ambiente": "dados_ficticios_de_demonstracao",
+  "indicadores": {
+    "pedidos": 5,
+    "receita_centavos": 275060,
+    "produtos_ativos": 14,
+    "clientes": 5
+  },
+  "vendas_por_plataforma": [
+    {
+      "platform": "PlayStation",
+      "unidades": 5,
+      "receita_centavos": 124950
+    },
+    {
+      "platform": "Nintendo",
+      "unidades": 4,
+      "receita_centavos": 79960
+    },
+    {
+      "platform": "Xbox",
+      "unidades": 2,
+      "receita_centavos": 42980
+    },
+    {
+      "platform": "PC",
+      "unidades": 3,
+      "receita_centavos": 27170
+    }
+  ],
+  "vendas_por_mes": [
+    {
+      "mes": "2026-11",
+      "pedidos": 5,
+      "receita_centavos": 275060
+    }
+  ],
+  "produtos_mais_vendidos": [
+    {
+      "titulo": "Ghost of Tsushima",
+      "unidades": 2,
+      "receita_centavos": 49980
+    },
+    {
+      "titulo": "God of War Ragnarök",
+      "unidades": 2,
+      "receita_centavos": 49980
+    },
+    {
+      "titulo": "Hades",
+      "unidades": 2,
+      "receita_centavos": 19980
+    },
+    {
+      "titulo": "Mario Kart 8 Deluxe",
+      "unidades": 2,
+      "receita_centavos": 59980
+    },
+    {
+      "titulo": "Elden Ring",
+      "unidades": 1,
+      "receita_centavos": 24990
+    },
+    {
+      "titulo": "Forza Horizon 5",
+      "unidades": 1,
+      "receita_centavos": 22990
+    },
+    {
+      "titulo": "Halo Infinite",
+      "unidades": 1,
+      "receita_centavos": 19990
+    },
+    {
+      "titulo": "Hollow Knight",
+      "unidades": 1,
+      "receita_centavos": 4690
+    },
+    {
+      "titulo": "Red Dead Redemption 2",
+      "unidades": 1,
+      "receita_centavos": 19990
+    },
+    {
+      "titulo": "Stardew Valley",
+      "unidades": 1,
+      "receita_centavos": 2490
+    }
+  ],
+  "observacao": "Pedidos simulados em memória por backend/scripts/create-dashboard-demo.js, para testes e apresentação acadêmica. Não representam vendas reais."
+}

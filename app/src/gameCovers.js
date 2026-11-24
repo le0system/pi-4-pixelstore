@@ -1,0 +1,16 @@
+export const gameCovers = {
+  'Elden Ring': require('../assets/games/elden-ring.webp'),
+  'Red Dead Redemption 2': require('../assets/games/red-dead-remption.webp'),
+  'Hollow Knight': require('../assets/games/hollow-knight.webp'),
+  'Mario Kart 8 Deluxe': require('../assets/games/mario-kart-8-deluxe.webp'),
+  'Forza Horizon 5': require('../assets/games/forza-horizon-5.webp'),
+  'Ghost of Tsushima': require('../assets/games/ghost-of-tsushima.webp'),
+  'Stardew Valley': require('../assets/games/stardew-valley.webp'),
+  'The Legend of Zelda: Breath of the Wild': require('../assets/games/zelda-botw.webp'),
+  'Halo Infinite': require('../assets/games/halo-infinite.webp'),
+  'God of War Ragnarök': require('../assets/games/god-of-war-ragnarok.webp'),
+  'Cyberpunk 2077': require('../assets/games/cyberpunk-2077.webp'),
+  'Hades': require('../assets/games/hades.webp'),
+  'Celeste': require('../assets/games/celeste.webp'),
+  'Ori and the Will of the Wisps': require('../assets/games/ori.webp'),
+};
